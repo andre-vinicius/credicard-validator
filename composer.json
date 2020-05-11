@@ -1,0 +1,30 @@
+{
+  "name": "andre-vinicius/credicard-validator",
+  "description": "API",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "TI - Grupo Coqueiro",
+      "email": "informatica@grupocoqueiro.com.br"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "phpunit/phpunit": "7.5.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "IdClass\\": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
